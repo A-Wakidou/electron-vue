@@ -41,7 +41,7 @@
         <h1>Nos véhicules</h1>
         <p>Choisissez un véhicule pour consulter les détails du modèle et les tarifs.</p>
         <div class="car" v-for="item in state.cars" :key="item.id">
-            <Router-Link :to="'/car-details?q='+item.name">
+            <Router-Link :to="'/car-details?q='+item.id">
             <img :src="item.image" :alt="item.name">
             <div>
                 <span>{{item.name}}</span>
@@ -99,6 +99,7 @@
         padding: 1rem;
         width: 24px;
         height: 24px;
+        cursor: pointer;
     }
 
     .toogle .buttons {
