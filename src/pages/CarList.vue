@@ -95,7 +95,7 @@
         color: white;
     }
 
-    img {
+    img, button {
         cursor: pointer;
     }
 
