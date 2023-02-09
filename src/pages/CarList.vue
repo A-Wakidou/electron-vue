@@ -95,11 +95,14 @@
         color: white;
     }
 
+    img {
+        cursor: pointer;
+    }
+
     .toogle img {
         padding: 1rem;
         width: 24px;
         height: 24px;
-        cursor: pointer;
     }
 
     .toogle .buttons {
